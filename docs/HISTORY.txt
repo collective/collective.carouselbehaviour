@@ -1,8 +1,8 @@
 Changelog
 =========
 
-0.1dev (unreleased)
--------------------
+0.1 (2013-11-02)
+----------------
 
 - Added functionality and documentation [bogdangi]
 - Initial release [bogdangi]
