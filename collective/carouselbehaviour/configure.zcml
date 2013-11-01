@@ -34,9 +34,17 @@
         title="Collective Carousel Behaviour"
         description="THis is behaviour and viewlet to implement possibility add colective carousel for dexterity content type"
         provides=".collectivecarouselbehaviour.ICollectiveCarouselBehaviour"
-        factory=".collectivecarouselbehaviour.CollectiveCarouselBehaviour"
         for="plone.dexterity.interfaces.IDexterityContent"
         />
 
+    <browser:viewlet
+        name="plone.carousel"
+        for="plone.dexterity.interfaces.IDexterityContent"
+        view="plone.app.layout.globals.interfaces.IViewView"
+        manager="plone.app.layout.viewlets.interfaces.IAboveContent"
+        class=".viewlets.CarouselViewlet"
+        permission="zope2.View"
+        layer="collective.carousel.interfaces.ICollectiveCarouselLayer"
+        />
 
 </configure>
