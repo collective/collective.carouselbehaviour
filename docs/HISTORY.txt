@@ -4,4 +4,5 @@ Changelog
 0.1dev (unreleased)
 -------------------
 
-- Initial release
+- Added functionality and documentation [bogdangi]
+- Initial release [bogdangi]
