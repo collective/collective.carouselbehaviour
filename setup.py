@@ -15,10 +15,10 @@ setup(name='collective.carouselbehaviour',
         "Programming Language :: Python",
         "Topic :: Software Development :: Libraries :: Python Modules",
         ],
-      keywords='',
-      author='',
-      author_email='',
-      url='http://svn.plone.org/svn/collective/',
+      keywords='collective carousel behaviour',
+      author='Bogdan Girman',
+      author_email='bogdan.girman@gmail.com',
+      url='https://github.com/collective/collective.carouselbehaviour',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['collective'],
@@ -28,6 +28,7 @@ setup(name='collective.carouselbehaviour',
           'setuptools',
           'plone.app.dexterity',
           'plone.namedfile [blobs]',
+          'collective.carousel',
           # -*- Extra requirements: -*-
       ],
       entry_points="""
@@ -38,7 +39,7 @@ setup(name='collective.carouselbehaviour',
       # The next two lines may be deleted after you no longer need
       # addcontent support from paster and before you distribute
       # your package.
-      setup_requires=["PasteScript"],
-      paster_plugins = ["ZopeSkel"],
+      #setup_requires=["PasteScript"],
+      #paster_plugins = ["ZopeSkel"],
 
       )
