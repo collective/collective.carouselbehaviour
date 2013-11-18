@@ -1,3 +1,7 @@
+.. image:: https://coveralls.io/repos/collective/collective.carouselbehaviour/badge.png
+  :target: https://coveralls.io/r/collective/collective.carouselbehaviour
+
+
 Introduction
 ============
 
