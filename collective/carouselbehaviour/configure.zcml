@@ -32,7 +32,7 @@
 
     <plone:behavior
         title="Collective Carousel Behaviour"
-        description="THis is behaviour and viewlet to implement possibility add colective carousel for dexterity content type"
+        description="This is behaviour and viewlet to implement possibility add collective carousel for dexterity content types"
         provides=".collectivecarouselbehaviour.ICollectiveCarouselBehaviour"
         for="plone.dexterity.interfaces.IDexterityContent"
         />
